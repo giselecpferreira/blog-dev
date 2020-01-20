@@ -1,0 +1,11 @@
+h4 {
+    font-family: "Raleway";
+}
+
+.tech-tag {
+    background: black;
+    border-radius: 10px;
+    border-color: transparent;
+    font-family: "Raleway";
+    font-size: .85rem;
+}
