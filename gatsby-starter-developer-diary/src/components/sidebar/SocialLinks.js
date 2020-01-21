@@ -1,7 +1,7 @@
 import React from "react"
 import {
-    FaLinkedin,
-    FaGithubSquare
+    FaLinkedinIn,
+    FaGithub
 } from "react-icons/fa"
 import "./sidebar.css"
 
@@ -12,13 +12,13 @@ const SocialLinks = ({ contacts }) => {
             <a className="text-secondary p-2"
                 href={contacts.linkedin}>
                 <span title="Linked In">
-                    <FaLinkedin size={26} style={{ color: "secondary" }} />
+                    <FaLinkedinIn size={26} style={{ color: "secondary" }} />
                 </span>
             </a>
             <a className="text-secondary p-2"
                 href={contacts.github}>
                 <span title="GitHub">
-                    <FaGithubSquare size={26} style={{ color: "secondary" }} />
+                    <FaGithub size={26} style={{ color: "secondary" }} />
                 </span>
             </a>
         </div>

@@ -27,7 +27,7 @@
 
 .bottom-bar {
   width: 100%;
-  background: black;
+  background: #424242;
   display: none;
   flex-direction: row;
   justify-content: space-around;

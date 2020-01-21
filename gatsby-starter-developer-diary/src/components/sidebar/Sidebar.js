@@ -1,9 +1,7 @@
 import React from "react"
-import { StaticQuery, graphql, Link } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 import Bio from "./Bio"
 import "./sidebar.css"
-
-import SocialLinks from "./SocialLinks"
 import TechTags from "./TechTags"
 
 

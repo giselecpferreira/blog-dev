@@ -46,11 +46,11 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
+  text-decoration: none;
 }
 abbr[title] {
   border-bottom: none;
-  text-decoration: underline;
-  text-decoration: underline dotted;
+  text-decoration: none;
 }
 b,
 strong {
@@ -218,7 +218,7 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0.65rem;
 }
 h1 {
   margin-left: 0;
@@ -253,6 +253,7 @@ h2 {
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
+  text-decoration: none;
 }
 h3 {
   margin-left: 0;
@@ -279,7 +280,7 @@ h4 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0.45rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;

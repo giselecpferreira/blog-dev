@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Developer Diary - A Gatsby Starter
+  Developer - A Gatsby Starter
 </h1>
 
 ![devDiary](https://dl.dropboxusercontent.com/s/605o40f9b92e9m8/devdiary.jpg?dl=0)
