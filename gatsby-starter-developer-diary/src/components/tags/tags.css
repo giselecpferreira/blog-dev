@@ -9,3 +9,9 @@ h4 {
     font-family: "Raleway";
     font-size: .85rem;
 }
+
+
+.tech-tag:hover  {
+    border-radius: 10px;
+    background-color:#666;
+}
