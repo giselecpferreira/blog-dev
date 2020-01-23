@@ -42,7 +42,7 @@
   display: none;
 }
 .head-logo {
-  font-family: "Raleway";
+  font-family: inherit;
   font-size: 1.75rem;
 }
 
