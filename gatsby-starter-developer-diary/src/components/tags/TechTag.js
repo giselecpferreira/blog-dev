@@ -7,7 +7,7 @@ const TechTag = (props) => {
     const { tag, tech, name, size, color } = props
 
     return (
-        <div className="d-inline-block p-1">
+        <div className="d-inline-block p-1 tags">
             <Link to={`/tags/${tag}/`}>
                 <button
                     className="tech-tag text-white">

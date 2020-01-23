@@ -136,7 +136,7 @@ html [type="button"] {
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner,
 button::-moz-focus-inner {
-  border-style: none;
+  border-style: transparent;
   padding: 0;
 }
 [type="button"]:-moz-focusring,
@@ -220,7 +220,7 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 0.65rem;
+  margin-bottom: -2.35rem;
 }
 h1 {
   margin-left: 0;
@@ -622,4 +622,8 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.icon-size {
+  
 }

@@ -9,9 +9,20 @@ h4 {
     font-family: "Raleway";
     font-size: .85rem;
 }
+.tech-tag  :hover :active :focus {
+    border-radius: 10px;
+    background-color:#666;
+}
 
+button :active :hover :focus{
+    border-radius: 10px;
+    background-color:#666;
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
 
-.tech-tag:hover  {
+.tags :hover :active :focus{
     border-radius: 10px;
     background-color:#666;
 }
