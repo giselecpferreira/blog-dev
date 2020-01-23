@@ -29,8 +29,9 @@ const AboutPage = (props) => {
                     <SEO title="About" />
                     <div className="mt-3">
                         <h2 className="heading">About</h2>
-                        <p><i>DESCRIÇÃO SOBRE O BLOG.</i></p>
-                        <br />
+                        <p><i>Sou desenvolvedora de software há 3 anos, fiz esse blog para compartilhar conhecimento. Compartilhem e me marquem nas redes sociais.</i>
+                        </p>
+                        <p>Obrigada pela visita no site.</p>
                     </div>
                 </div>
             </div>
