@@ -48,10 +48,10 @@ const Layout = ({ children }) => {
             <main className="p-4">{children}</main>
             <footer className="text-center">
               <hr/>
-              <p className="d-inline">© {new Date().getFullYear()} <a className="text-info" href="">Gisele Pacheco based on willjw3</a>, All Rights Reserved.</p>
+              <p className="d-inline text-secondary">©{new Date().getFullYear()} <span className="text-secondary" href="">Gisele Pacheco based on willjw3</span>, All Rights Reserved.</p>
               <p className="mt-5 text-muted d-inline"><i> Built with
                             {` `}
-                <a className="text-info" href="https://www.gatsbyjs.org">Gatsby</a></i>
+                <a className="text-secondary" href="https://www.gatsbyjs.org">Gatsby</a></i>
               </p>
             </footer>
           </div>

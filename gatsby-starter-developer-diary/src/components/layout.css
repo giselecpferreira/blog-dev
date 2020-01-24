@@ -72,6 +72,8 @@ mark {
 }
 small {
   font-size: 80%;
+  margin-bottom: 0.5rem;
+  color: darkgrey !important;
 }
 sub,
 sup {
@@ -220,7 +222,7 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: -2.35rem;
+  margin-bottom: -2.3rem;
 }
 h1 {
   margin-left: 0;
@@ -247,7 +249,7 @@ h2 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0.5rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -624,6 +626,4 @@ pre tt:after {
   }
 }
 
-.icon-size {
-  
-}
+

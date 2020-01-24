@@ -15,13 +15,13 @@ const SocialLinks = ({ contacts }) => {
             <a className="text-primary ml-4"
                 href={contacts.linkedin}>
                 <span title="Linkedin">
-                    <FaLinkedinIn size={40} style={{ color: "primary" }} />
+                    <FaLinkedinIn size={28} style={{ color: "primary" }} />
                 </span>
             </a>
             <a className="text-light ml-4"
                 href={contacts.github}>
                 <span title="GitHub">
-                    <FaGithub size={40} style={{ color: "light" }} />
+                    <FaGithub size={28} style={{ color: "light" }} />
                 </span>
             </a>
         </div>

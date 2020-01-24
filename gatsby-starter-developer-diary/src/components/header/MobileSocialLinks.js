@@ -11,7 +11,7 @@ const MobileSocialLinks = ({ contacts }) => {
     return (
         <div className="bottom-bar py-1">
                             <Link to="/"><span className="text-light d-block pr-1">Home</span></Link>
-                            <Link to="/about"><span className="nav-bar text-light d-block pl-1 pr-1">About</span></Link>
+                            <Link to="/about"><span className="nav-bar text-light d-block pl-3 pr-3">About</span></Link>
                             <Link to="/archive"><span className="text-light d-block pl-1">Archive</span></Link>
             <a className=" text-primary"
                 href={contacts.linkedin}>

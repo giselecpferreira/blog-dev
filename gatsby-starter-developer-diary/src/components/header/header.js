@@ -8,7 +8,7 @@ import MobileBio from "./MobileBio"
 import "./header.css"
 
 const Header = ({ siteTitle, tagline, author, contacts }) => {
-  //máquina de screver
+  //máquina de escrever
   function typeWrite(elemento) {
     const textoArray = elemento.split("")
     textoArray.forEach(function(letra, i) {

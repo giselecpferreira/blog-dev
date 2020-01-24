@@ -51,7 +51,7 @@ const Tag = ({ pageContext, data }) => {
                                 >
                                     <h2 className="heading">{post.node.frontmatter.title}</h2>
                                 </Link>
-                                <small className="d-block text-info">{post.node.frontmatter.date}
+                                <small className="d-block text-secondary">{post.node.frontmatter.date}
                                 </small>
                                 <p className="mt-3 d-inline">{post.node.excerpt}</p>
                                 <Link

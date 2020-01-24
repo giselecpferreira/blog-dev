@@ -83,7 +83,7 @@ Scroll down to Services > Git Gateway, and click Enable Git Gateway. This authen
 
 
 ## Adding Blog Posts Manually
-Using your favorite text editor, go into your project's directory and find the `posts` folder. In that folder, add a new markdown file with your new blog post's name in mind. For example, if your post were to be called "Make a Blog With Gatsby", you might want to create the file `make-blog-with-gatsby.md` <br>
+Using your favorite text editor, go into your project's directory and find the `posts` folder. In that folder, add a new markdown file with your new blog post's name in mind. For example, if your post were to be called "Make a Blog With Gatsby", you might want to create the file `lorem-ipsum.md` <br>
 
 Add the frontmatter to that markdown file:
 ```
