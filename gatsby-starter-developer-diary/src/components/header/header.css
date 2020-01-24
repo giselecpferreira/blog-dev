@@ -41,10 +41,35 @@
   background: white;
   display: none;
 }
-.head-logo {
+
+/**/
+
+.head-logo{
+  max-width: 480px;
+  text-align: center;
+  margin: 60px auto;
   font-family: inherit;
   font-size: 1.75rem;
+  color: #fff;
 }
+.head-logo:after{
+content: '|';
+margin-left: 5px;
+opacity: 1;
+animation: pisca .7s infinite;
+}
+/* Animação aplicada ao content referente a classe *.titulo-principal* resultando num efeito de cursor piscando. */
+
+@keyframes pisca{
+  0%, 100%{
+      opacity: 1;
+  }
+  50%{
+      opacity: 0;
+  }
+}
+
+/**/
 
 small {
     font-family: "Raleway";

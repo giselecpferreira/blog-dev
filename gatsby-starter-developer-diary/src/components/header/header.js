@@ -2,37 +2,39 @@ import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
-
 import MobileSocialLinks from "./MobileSocialLinks"
 import SocialLinks from "./SocialLinks"
 import MobileBio from "./MobileBio"
 import "./header.css"
 
 const Header = ({ siteTitle, tagline, author, contacts }) => {
+  //máquina de screver
+  function typeWrite(elemento) {
+    const textoArray = elemento.split("")
+    textoArray.forEach(function(letra, i) {
+      setTimeout(function() {
+        document.getElementById("headTitle").innerHTML += letra 
+      }, 100 * i)
+    })
+  }
+
+  typeWrite(siteTitle)
 
   return (
     <header
       className="head-main"
       style={{
-        background: `#424242`
+        background: `#424242`,
       }}
     >
-      <div className="head-elements"
+      <div
+        className="head-elements"
         style={{
           margin: `0`,
-          padding: `.75rem`
+          padding: `.75rem`,
         }}
       >
-        <h1 className="head-logo ml-4" style={{ margin: 0 }}>
-          <Link
-            to="/"
-            style={{
-              color: `white`,
-              textDecoration: `none`,
-            }}
-          >
-            {siteTitle}
-          </Link>
+        <h1 id="headTitle" className="head-logo ml-4" style={{ margin: 0 }}>
         </h1>
         <SocialLinks contacts={contacts} />
       </div>
