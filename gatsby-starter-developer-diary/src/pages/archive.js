@@ -2,7 +2,6 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import "bootstrap/dist/css/bootstrap.css"
 import "./index.css"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Sidebar from "../components/sidebar/Sidebar"
@@ -37,7 +36,7 @@ const ArchivePage = ({ data }) => {
                     {posts.map((post) => {
                         const tags = post.node.frontmatter.tags
                         return (
-                            <div key={post.node.id} className="container mt-5">
+                            <div key={post.node.id} className="container mt-3">
                                 <Link
                                     to={post.node.fields.slug}
                                     className="text-dark"

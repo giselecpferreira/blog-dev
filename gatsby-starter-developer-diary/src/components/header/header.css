@@ -7,10 +7,6 @@
   flex-direction: column;
 }
 
-.head-main:active {
-  border-radius: 10px;
-}
-
 .head-elements {
   display: flex;
   flex-direction: row;

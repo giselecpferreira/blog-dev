@@ -17,7 +17,7 @@ const Tag = ({ pageContext, data }) => {
     const { totalCount } = data.allMarkdownRemark
     const tagHeader = `${totalCount} post${
         totalCount === 1 ? "" : "s"
-        } tagged with "${tag}"`
+        } com "${tag}"`
 
     const getTechTags = (tags) => {
         const techTags = []
@@ -40,11 +40,11 @@ const Tag = ({ pageContext, data }) => {
                 </div>
 
                 <div className="post-list-main">
-                    <i><h2 className="heading">{tagHeader}</h2></i>
+                    <i><small className="heading">{tagHeader}</small></i>
                     {posts.map((post) => {
                         const tags = post.node.frontmatter.tags
                         return (
-                            <div key={post.node.id} className="container mt-5">
+                            <div key={post.node.id} className="container mt-3">
                                 <Link
                                     to={post.node.fields.slug}
                                     className="text-dark"

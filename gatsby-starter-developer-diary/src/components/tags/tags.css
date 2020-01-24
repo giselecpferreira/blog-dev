@@ -2,6 +2,10 @@ h4 {
     font-family: "Raleway";
 }
 
+.tags :hover{
+    background-color:#666;
+}
+
 .tech-tag {
     background: #424242;
     border-radius: 10px;
@@ -9,8 +13,7 @@ h4 {
     font-family: "Raleway";
     font-size: .85rem;
 }
-.tech-tag  :hover :active :focus {
-    border-radius: 10px;
+.tech-tag  :hover {
     background-color:#666;
 }
 
