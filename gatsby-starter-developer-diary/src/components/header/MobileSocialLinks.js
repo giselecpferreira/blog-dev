@@ -15,13 +15,13 @@ const MobileSocialLinks = ({ contacts }) => {
                             <Link to="/archive"><span className="text-light d-block pl-1">Archive</span></Link>
             <a className=" text-primary"
                 href={contacts.linkedin}>
-                <span title="Linked In">
+                <span title="Linked In" target="_blank">
                     <FaLinkedinIn size={26} style={{ color: "primary" }} />
                 </span>
             </a>
             <a className="text-light"
                 href={contacts.github}>
-                <span title="GitHub">
+                <span title="GitHub" target="_blank">
                     <FaGithub size={26} style={{ color: "light" }} />
                 </span>
             </a>

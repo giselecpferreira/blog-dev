@@ -1,9 +1,10 @@
+
 .sidebar-main {
     width: 100%;
     
 }
 
-.side-social-links {
+.side-social-links{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -28,4 +29,5 @@ small, h3, p {
 .author-bio {
     font-size:1.5vw;
 }
+
 

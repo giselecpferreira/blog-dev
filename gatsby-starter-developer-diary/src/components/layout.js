@@ -46,12 +46,12 @@ const Layout = ({ children }) => {
             }}
           >
             <main className="p-4">{children}</main>
-            <footer className="text-center">
+            <footer className="text-center text-color font-size">
               <hr/>
-              <p className="d-inline text-secondary">©{new Date().getFullYear()} <span className="text-secondary" href="">Gisele Pacheco based on willjw3</span>, All Rights Reserved.</p>
-              <p className="mt-5 text-muted d-inline"><i> Built with
+              <p className="d-inline  text-color">©{new Date().getFullYear()} <span className="text-color" href="">Gisele Pacheco based on willjw3</span>, All Rights Reserved.</p>
+              <p className="mt-5 text-muted d-inline text-color"><i className="text-color"> Built with
                             {` `}
-                <a className="text-secondary" href="https://www.gatsbyjs.org">Gatsby</a></i>
+                <a className="text-color" href="https://www.gatsbyjs.org">Gatsby</a></i>
               </p>
             </footer>
           </div>

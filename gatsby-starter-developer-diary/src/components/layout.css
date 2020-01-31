@@ -1,7 +1,5 @@
-
-
 html {
-  font-family: 'Arvo', serif;
+  font-family: "Arvo", serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -626,4 +624,11 @@ pre tt:after {
   }
 }
 
+.text-color {
+  color: #dde0db;
+}
 
+
+.font-size {
+ font-size: 0.8rem !important;
+}

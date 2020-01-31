@@ -7,9 +7,9 @@ const TechTag = (props) => {
     const { tag, tech, name, size, color } = props
 
     return (
-      <div className="d-inline-block p-1 tags">
+      <div className="d-inline-block p-1 tags border-0 ">
         <Link to={`/tags/${tag}/`}>
-          <button className="tech-tag text-white">
+          <button className="tech-tag text-white" >
             <p className="d-inline">{tech} </p>
             <div className="d-inline" style={{ fontSize: size, color: color }}>
               <svg

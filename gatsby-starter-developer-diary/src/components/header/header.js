@@ -10,12 +10,9 @@ import "./header.css"
 const Header = ({ siteTitle, tagline, author, contacts }) => {
   //máquina de escrever
   function typeWrite(elemento) {
-    const textoArray = elemento.split("")
+   /* const textoArray = elemento.split("")
     textoArray.forEach(function(letra, i) {
-      setTimeout(function() {
-        document.getElementById("headTitle").innerHTML += letra 
-      }, 100 * i)
-    })
+      setTimeout(function() { window.document.getElementById("headTitle").innerHTML += letra }, 100 * i) })*/
   }
 
   typeWrite(siteTitle)
@@ -35,6 +32,7 @@ const Header = ({ siteTitle, tagline, author, contacts }) => {
         }}
       >
         <h1 id="headTitle" className="head-logo ml-4" style={{ margin: 0 }}>
+        Gisele Pacheco
         </h1>
         <SocialLinks contacts={contacts} />
       </div>

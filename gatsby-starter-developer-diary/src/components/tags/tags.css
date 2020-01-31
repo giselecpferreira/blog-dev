@@ -1,7 +1,9 @@
 h4 {
     font-family: "Raleway";
 }
-
+.tags :active{
+    border-radius: 10px;
+}
 .tags :hover{
     background-color:#666;
 }
